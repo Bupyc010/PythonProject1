@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+sqlalchemy
+aiosqlite
+greenlet
+python-multipart
+aiofiles
+passlib
+PyJWT
+python-dotenv
+python-multipart
+dotenv
+bcrypt
+pydantic[email]
+argon2_cffi
