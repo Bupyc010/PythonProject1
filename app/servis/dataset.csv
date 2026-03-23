@@ -12,53 +12,396 @@ if nam % 2 == 0:
 else:
     print('Нечетное')
 ","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\3.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\4.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\5.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\6.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\7.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\8.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\9.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\10.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\11.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\12.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\13.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\14.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\15.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\16.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\17.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\18.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\19.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\20.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\21.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\22.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\23.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\24.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\25.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\26.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\27.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\28.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\29.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\30.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\31.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\32.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\33.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\34.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\35.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\36.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\37.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\38.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\39.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\40.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\41.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\42.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\43.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\44.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\45.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\46.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\47.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\48.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\49.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\50.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\51.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
-"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\52.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\3.png"," nam = int(input())
+if nam >= 18:
+    print('Доступ разрешен')
+else:
+    print('Доступ запрещен')
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\4.png","nam1, nam2 = int(input()), int(input())
+if nam1 < nam2:
+    print(nam1)
+else:
+    print(nam2)
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\5.png","nam = int(input())
+a = nam % 10
+b = (nam % 100) // 10
+c = (nam % 1000) // 100
+d = nam // 1000
+if a + d == c - b:
+    print('ДА')
+else:
+    print('НЕТ')
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\6.png","nam1, nam2, nam3 = int(input()), int(input()), int(input())
+summ = 0
+if nam1 > 0:
+    summ = summ + nam1
+if nam2 > 0:
+    summ = summ + nam2
+if nam3 > 0:
+    summ = summ + nam3
+print(summ)
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\7.png","nam = int(input())
+if nam <= 13:
+    print('детство')
+if 24 >= nam >= 14:
+    print('молодость')
+if 59 >= nam >= 25:
+    print('зрелость')
+if nam >= 60:
+    print('старость')
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\8.png","nam1, nam2, nam3, nam4 = int(input()), int(input()), int(input()), int(input())
+m1, m2 = 0, 0
+if nam1 < nam2:
+    m1 = nam1
+else:
+    m1 = nam2
+if nam3 < nam4:
+    m2 = nam3
+else:
+    m2 = nam4
+if m1 < m2:
+    print(m1)
+else:
+    print(m2)
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\9.png","num = int(input())
+if num > -1 and num < 17:
+    print('Принадлежит')
+else:
+    print('Не принадлежит')
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\10.png","n = int(input())
+if not (-3 < n < 7):
+    print('Принадлежит')
+else:
+    print('Не принадлежит')
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\11.png","n = int(input())
+if -30 < n <= -2 or 7 < n <= 25:
+    print('Принадлежит')
+else:
+    print('Не принадлежит')
+
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\12.png","num = int(input())
+if 1000 <= num <= 9999 and (num % 7 == 0 or num % 17 == 0):
+    print('YES')
+else:
+    print('NO')
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\13.png","a, b, c = int(input()), int(input()), int(input())
+if a + b > c and a + c > b and c + b > a:
+    print('YES')
+else:
+    print('NO')
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\14.png","nam = int(input())
+if nam % 4 == 0 and nam % 100 > 0 or nam % 400 == 0:
+    print('YES')
+else:
+    print('NO')
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\15.png","n = 2025
+suma = 0
+while n > 0:
+    suma = suma + (n % 10)
+    n //= 10
+print('Suma =', suma)
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\16.png","nam1, nam2, nam3, nam4 = int(input()), int(input()), int(input()), int(input())
+if nam1 - nam3 >= -1 and nam2 - nam4 >= -1 and nam1 - nam3 <= 1 and nam2 - nam4 <= 1:
+    print('YES')
+else:
+    print('NO')
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\17.png","nam1, nam2 = int(input()), int(input())
+if nam1 > nam2:
+    print('NO')
+elif nam2 > nam1:
+    print('YES')
+else:
+    print("Don't know")
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\18.png","nam1, nam2, nam3 = int(input()), int(input()), int(input())
+if nam1 == nam2 == nam3 and nam2 == nam1 == nam3:
+    print('Равносторонний')
+elif nam1 != nam2 != nam3 and nam2 != nam1 != nam3:
+    print('Разносторонний')
+else:
+    print('Равнобедренный')
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\19.png","nam1, nam2, nam3 = int(input()), int(input()), int(input())
+if nam2 < nam1 < nam3 or nam3 < nam1 < nam2:
+    print(nam1)
+elif nam1 < nam2 < nam3 or nam3 < nam2 < nam1:
+    print(nam2)
+else:
+    print(nam3)
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\20.png","num = int(input())
+if num == 2:
+    print(28)
+elif num == 6 or num == 4 or num == 9 or num == 11:
+    print(30)
+else:
+    print(31)
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\21.png","num = int(input())
+if num < 60:
+    print('Легкий вес')
+elif num < 64:
+    print('Первый полусредний вес')
+else:
+    print('Полусредний вес')
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\22.png","str1, str2 = input(), input()
+if str1 == 'красный' and str2 == 'красный':
+    print('красный')
+elif str1 == 'желтый' and str2 == 'желтый':
+    print('желтый')
+elif str1 == 'синий' and str2 == 'синий':
+    print('синий')
+elif str1 == 'желтый' and str2 == 'синий' or str1 == 'синий' and str2 == 'желтый':
+    print('зеленый')
+elif str1 == 'желтый' and str2 == 'красный' or str1 == 'красный' and str2 == 'желтый':
+    print('оранжевый')
+elif str1 == 'синий' and str2 == 'красный' or str1 == 'красный' and str2 == 'синий':
+    print('фиолетовый')
+else:
+    print('ошибка цвета')
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\23.png","num = int(input())
+if num % 10 == 0 and (num % 100) // 10 == 0:
+    print('YES')
+else:
+    print('NO')
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\24.png","num1, num2 = int(input()), input()
+if num1 >= 10 and num1 <= 15 and num2 == 'f':
+    print('YES')
+else:
+    print('NO')
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\25.png","x1,y1,x2,y2=int(input()),int(input()),int(input()),int(input())
+if abs(x1-x2) == abs(y1-y2):
+    print("YES")
+else:
+    print("NO")
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\26.png","x1,y1,x2,y2=int(input()),int(input()),int(input()),int(input())
+if abs(x1 - x2) == abs(y1 - y2) or x1 == x2 or y1 == y2:
+    print('YES')
+else:
+    print('NO')
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\27.png","strr = input()
+if 'синий' in strr:
+    print('YES')
+else:
+    print('NO')
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\28.png","strr = input()
+if 'суббота' in strr or 'воскресенье' in strr:
+    print('YES')
+else:
+    print('NO')
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\29.png","strr = input()
+if '@' in strr and '.' in strr:
+    print('YES')
+else:
+    print('NO')
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\30.png","strr, num = input(), int(input())
+for i in range(num):
+    print(strr)
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\31.png","num1, num2 = int(input()), int(input())
+for i in range(num1, num2 + 1):
+    print(i)
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\32.png","num = int(input())
+for i in range(num):
+    print('*' * 19)
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\33.png","strr = input()
+for i in range(10):
+    print(i, strr)
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\34.png","num = int(input())
+for i in range(num + 1):
+    print('Квадрат числа', i, 'равен', i ** 2)
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\35.png","num = int(input())
+for i in range(num):
+    print('*' * (num - i))
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\36.png","m, p, n = int(input()), int(input()), int(input())
+print(1, m)
+for i in range(n - 1):
+    m = m + m * p / 100
+    print(i + 2, m)
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\37.png","st = input()
+while st != 'КОНЕЦ':
+    print(st)
+    st = input()
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\38.png","num = int(input())
+while num != 0:
+    last_digit = num % 10
+    print(last_digit)
+    num = num // 10
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\39.png","num = int(input())
+st = ''
+while num != 0:
+    last_digit = num % 10
+    st += str(last_digit)
+    num = num // 10
+print(st)
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\40.png","num = int(input())
+kol = 0
+summ = 0
+pr = num % 10
+last = 0
+fist = num
+while num != 0:
+    a = num % 10
+    kol += 1
+    summ += a
+    if kol == 1:
+        last = a
+    elif kol > 1:
+        pr *= a
+    num //= 10
+print(summ)
+print(kol)
+print(pr)
+print(summ / kol)
+print((fist  % (10 ** (kol))) // (10 ** (kol - 1)))
+b = (fist  % (10 ** (kol))) // (10 ** (kol - 1))
+print(b + last)
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\41.png","num = int(input())
+n = 2
+res = 0
+while num != 0:
+    if num % n == 0:
+        break
+    n += 1
+print(n)
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\42.png","num = int(input())
+for i in range(1, num + 1):
+    if i > 4 and i < 10:
+        continue
+    elif i > 16 and i < 38:
+        continue
+    elif i > 77 and i < 88:
+        continue
+    else:
+        print(i)
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\43.png","num = int(input())
+for i in range(num):
+    print()
+    for j in range(3):
+        print(num, end = ' ')
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\44.png","num = int(input())
+for i in range(1, num + 1):
+    print()
+    for j in range(i):
+        print(i, end = '')
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\45.png","s = input()
+count = 0
+for i in range(len(s)):
+    if s[i] != s[i].upper():
+        count += 1
+print(count)
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\46.png","n = int(input())
+num = []
+for i in range(n):
+    s = input()
+    num.append(s)
+print(num)
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\47.png"," n = int(input())
+nums = []
+for i in range(n):
+    num = int(input())
+    nums.append(num)
+for i in range(len(nums)):
+    if nums[i] == min(nums):
+        minn = i
+del (nums[minn])
+for i in range(len(nums)):
+    if nums[i] == max(nums):
+        maxx = i
+del (nums[maxx])
+print(*nums, sep='\n')
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\48.png","num = int(input())
+ss = []
+for i in range(num):
+    s = input()
+    ss.append(s)
+serch = input()
+for i in range(len(ss)):
+    if  ss[i].lower().find(serch.lower()) != -1:
+        print(ss[i])
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\49.png","n = int(input())
+num1, num2, num3 = [], [], []
+for i in range(n):
+    nams = int(input())
+    if nams < 0:
+        num1.append(nams)
+    elif nams == 0:
+        num2.append(nams)
+    elif nams >= 1:
+        num3.append(nams)
+print(*num1, *num2, *num3, sep = '\n')
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\50.png","def draw_box():
+    for i in range(14):
+        if i == 0 or i == 13:
+            print('*' * 10)
+        else:
+            print('*', ' ' * 6, '*')
+
+# основная программа
+draw_box()
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\51.png","# объявление функции
+def draw_triangle():
+    for i in range(1, 11):
+        print('*' * i)
+
+# основная программа
+draw_triangle()  # вызов функции
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\52.png","# объявление функции
+def get_days(month):
+    if month == 2:
+        res = 28
+    elif month == 4 or month == 6 or month == 9 or month == 11:
+        res = 30
+    else:
+        res = 31
+    return res
+# считываем данные
+num = int(input())
+
+# вызываем функцию
+print(get_days(num))
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
