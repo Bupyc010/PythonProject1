@@ -13,3 +13,8 @@ dotenv
 bcrypt
 pydantic[email]
 argon2_cffi
+opencv-python
+numpy
+tensorflow
+scikit-learn
+scikit-image

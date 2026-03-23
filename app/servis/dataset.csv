@@ -1,0 +1,64 @@
+image_path,code,arrows,shapes
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\1.png","st1 = input()
+st2 = input()
+if st1 == st2:
+    print('Пароль принят')
+else:
+    print('Пароль не принят')
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\2.png","nam = int(input())
+if nam % 2 == 0:
+    print('Четное')
+else:
+    print('Нечетное')
+","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\3.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\4.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\5.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\6.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\7.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\8.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\9.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\10.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\11.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\12.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\13.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\14.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\15.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\16.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\17.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\18.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\19.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\20.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\21.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\22.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\23.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\24.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\25.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\26.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\27.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\28.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\29.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\30.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\31.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\32.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\33.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\34.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\35.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\36.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\37.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\38.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\39.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\40.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\41.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\42.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\43.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\44.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\45.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\46.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\47.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\48.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\49.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\50.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\51.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
+"C:\Users\Bupyc\PycharmProjects\PythonProject1\app\servis\date\block\52.png","move 10 20 draw_circle 30 fill_red","[\"arrow_1\",\"arrow_2\",\"arrow_3\",\"arrow_4\",\"arrow_5\",\"arrow_6\",\"arrow_7\"]","[\"shapes_3\",\"shapes_4\",\"shapes_5\"]"
