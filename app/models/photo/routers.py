@@ -6,6 +6,7 @@ import aiofiles
 from app.core.dependencies import get_async_db
 from app.models.photo import crud as photo_crud
 from app.models.code import crud as code_crud
+from app.models.services import code
 
 
 router = APIRouter(
@@ -33,7 +34,7 @@ async def create_upload_file_async_save(file: UploadFile = File(...), db: AsyncS
 
         await photo_crud.create_photo(db, file_location)
         photo_id = await photo_crud.get_id_photo(db, file_location)
-        await code_crud.create_code(db,"Файл загружен", photo_id)
-        return {"info": f"file '{file.filename}' saved at '{file_location}'"}
+        await code_crud.create_code(db, code.cod(file_location), photo_id)
+        return {"info": file_location}
     except Exception as e:
         return {"error": f"Could not save file: {e}"}
