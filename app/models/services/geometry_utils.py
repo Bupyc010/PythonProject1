@@ -1,53 +1,48 @@
-import numpy as np
+import math
 
-
-def get_center(bbox):
+def center(bbox):
     x1, y1, x2, y2 = bbox
-    return ((x1 + x2) / 2, (y1 + y2) / 2)
+    return ((x1 + x2) // 2, (y1 + y2) // 2)
 
+def is_below(a, b, tolerance=15):
+    return b["bbox"][1] >= a["bbox"][3] - tolerance
+
+def horizontal_distance(a, b):
+    ax, _ = center(a["bbox"])
+    bx, _ = center(b["bbox"])
+    return abs(ax - bx)
+
+def vertical_distance(a, b):
+    return b["bbox"][1] - a["bbox"][3]
+
+def distance(a, b):
+    ax, ay = center(a["bbox"])
+    bx, by = center(b["bbox"])
+    return math.sqrt((ax - bx) ** 2 + (ay - by) ** 2)
 
 def find_connections(elements):
-    """
-    elements: список словарей с 'bbox' и 'label'
-    Возвращает список кортежей (from_idx, to_idx)
-    """
     connections = []
-    # Логика упрощена: ищем стрелки и смотрим, что находится у их концов.
-    # В идеале здесь нужен алгоритм Хафа или поиск контуров-линий.
 
-    arrows = [e for e in elements if e['label'] == 'arrow']
-    blocks = [e for e in elements if e['label'] != 'arrow']
+    for i, el in enumerate(elements):
+        label = el["label"]
 
-    # Для каждой стрелки найдем ближайший 'выходящий' блок и 'входящий'
-    for arrow in arrows:
-        ax1, ay1, ax2, ay2 = arrow['bbox']
-        a_center = get_center(arrow['bbox'])
+        if label == "terminal" and "конец" in el.get("text", "").lower():
+            continue
 
-        # Упрощенно: считаем, что поток идет сверху вниз или слева направо
-        # Находим блок, который выше/левее центра стрелки (предок)
-        # И блок, который ниже/правее (потомок)
+        candidates = []
+        for j, target in enumerate(elements):
+            if i == j:
+                continue
+            if is_below(el, target):
+                candidates.append((j, distance(el, target), horizontal_distance(el, target)))
 
-        source = None
-        target = None
-        min_dist_s = float('inf')
-        min_dist_t = float('inf')
+        candidates.sort(key=lambda x: (x[1], x[2]))
 
-        for b_idx, b in enumerate(elements):
-            if b['label'] == 'arrow': continue
-
-            bx, by = get_center(b['bbox'])
-            dist = np.sqrt((bx - a_center[0]) ** 2 + (by - a_center[1]) ** 2)
-
-            # Если блок выше стрелки — потенциальный источник
-            if by < ay1 + 10 and dist < min_dist_s:
-                min_dist_s = dist
-                source = b_idx
-            # Если блок ниже стрелки — потенциальная цель
-            elif by > ay2 - 10 and dist < min_dist_t:
-                min_dist_t = dist
-                target = b_idx
-
-        if source is not None and target is not None:
-            connections.append((source, target))
+        if label == "decision":
+            for item in candidates[:2]:
+                connections.append((i, item[0]))
+        else:
+            if candidates:
+                connections.append((i, candidates[0][0]))
 
     return connections

@@ -25,16 +25,23 @@ async def create_upload_file_async_save(file: UploadFile = File(...), db: AsyncS
     file_location = f"app/photo/{file.filename}"
 
     try:
-        # Открываем файл асинхронно с помощью aiofiles
+        # Асинхронное сохранение файла
         async with aiofiles.open(file_location, "wb") as out_file:
-            # Читаем файл по частям (чанками), например, по 1 МБ
             chunk_size = 1024 * 1024
-            while content := await file.read(chunk_size):  # Асинхронное чтение из UploadFile
-                await out_file.write(content)  # Асинхронная запись чанка в файл
+            while content := await file.read(chunk_size):
+                await out_file.write(content)
 
+        # Работа с БД
         await photo_crud.create_photo(db, file_location)
         photo_id = await photo_crud.get_id_photo(db, file_location)
-        await code_crud.create_code(db, code.cod(file_location), photo_id)
-        return {"info": file_location}
+
+        # Генерация кода
+        photo_code = code.cod(file_location)
+        await code_crud.create_code(db, photo_code, photo_id)
+
+        # Возвращаем только сгенерированный код
+        return {
+            "photo_code": photo_code
+        }
     except Exception as e:
         return {"error": f"Could not save file: {e}"}

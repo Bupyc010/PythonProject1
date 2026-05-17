@@ -49,10 +49,18 @@ class LoginActivity : AppCompatActivity() {
                             Toast.makeText(this@LoginActivity, "Токен не получен", Toast.LENGTH_SHORT).show()
                         }
                     } else {
-                        Toast.makeText(this@LoginActivity, "Ошибка: ${response.code()}", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(
+                            this@LoginActivity,
+                            "Ошибка: ${response.code()}",
+                            Toast.LENGTH_SHORT
+                        ).show()
                     }
                 } catch (e: Exception) {
-                    Toast.makeText(this@LoginActivity, "Сбой: ${e.message}", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(
+                        this@LoginActivity,
+                        "Сбой: ${e.message}",
+                        Toast.LENGTH_SHORT
+                    ).show()
                 }
             }
         }

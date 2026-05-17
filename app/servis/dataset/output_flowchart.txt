@@ -1,0 +1,5 @@
+def main():
+    х1,у1 ,x2 ,у2=int(input()),int(input()) int(input()) int(input()) нет y2 abs(x1 x2) abs(y1 y2) or x1 x2 ог у1 'YES 'NO
+
+if __name__ == '__main__':
+    main()

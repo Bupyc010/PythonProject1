@@ -29,18 +29,19 @@ class RegisterActivity : AppCompatActivity() {
 
             lifecycleScope.launch {
                 try {
+                    // Создаем объект запроса
                     val request = RegisterRequest(email, password)
+                    // ПЕРЕДАЕМ ОБЪЕКТ (теперь совпадает с репозиторием)
                     val response = repo.register(request)
 
                     if (response.isSuccessful) {
                         Toast.makeText(this@RegisterActivity, "Успех!", Toast.LENGTH_SHORT).show()
                         finish()
                     } else {
-                        // Теперь code() будет работать
-                        Toast.makeText(this@RegisterActivity, "Ошибка: ${response.code()}", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this@RegisterActivity, "Ошибка сервера: ${response.code()}", Toast.LENGTH_SHORT).show()
                     }
                 } catch (e: Exception) {
-                    Toast.makeText(this@RegisterActivity, "Сеть: ${e.message}", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this@RegisterActivity, "Ошибка сети: ${e.message}", Toast.LENGTH_SHORT).show()
                 }
             }
         }

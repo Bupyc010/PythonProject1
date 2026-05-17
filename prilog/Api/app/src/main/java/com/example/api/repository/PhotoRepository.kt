@@ -1,15 +1,15 @@
 package com.example.api.repository
 
-import com.example.api.api.RetrofitClient
+import com.example.api.api.ApiClient
+import com.example.api.model.PhotoResponse
 import okhttp3.MultipartBody
+import retrofit2.Response
 
 class PhotoRepository {
-
-    private val api = RetrofitClient.api
-
-    suspend fun upload(photo: MultipartBody.Part, token: String) =
-        api.uploadPhoto(photo, token)
-
-    suspend fun getPhotos() =
-        api.getPhotos()
+    suspend fun uploadPhoto(
+        part: MultipartBody.Part,
+        token: String
+    ): Response<PhotoResponse> {
+        return ApiClient.apiService.uploadPhoto(part, token)
+    }
 }

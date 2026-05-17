@@ -1,31 +1,33 @@
 import os
-from PIL import Image, ImageOps
+from PIL import Image
 
 input_folder = "images"
 output_folder = "resized"
+target_size = (224, 224)
 
-# Создаем папку, если её нет
 os.makedirs(output_folder, exist_ok=True)
 
-for filename in os.listdir(input_folder):
-    if filename.lower().endswith((".png", ".jpg", ".jpeg", ".bmp", ".webp")):
-        input_path = os.path.join(input_folder, filename)
-        output_path = os.path.join(output_folder, os.path.splitext(filename)[0] + "_64x64.png")
+supported_ext = (".png", ".jpg", ".jpeg", ".bmp", ".webp")
+files = [f for f in os.listdir(input_folder) if f.lower().endswith(supported_ext)]
 
-        try:
-            with Image.open(input_path) as img:
-                # 1. Изменяем размер точно до 64x64 (обрезая лишнее, если пропорции другие)
-                img_64 = ImageOps.fit(img, (64, 64), method=Image.Resampling.LANCZOS)
+print(f"Найдено файлов: {len(files)}")
 
-                # 2. Переводим в адаптивную палитру (256 цветов) для сильного сжатия.
-                # Это сохраняет прозрачность и сильно уменьшает размер файла.
-                img_optimized = img_64.convert("P", palette=Image.ADAPTIVE, colors=32)
+counter = 218
 
-                # 3. Сохраняем с флагом оптимизации
-                img_optimized.save(output_path, "PNG", optimize=True)
+for filename in files:
+    input_path = os.path.join(input_folder, filename)
+    output_path = os.path.join(output_folder, f"{counter}.png")
 
-            print(f"Обработан: {filename}")
-        except Exception as e:
-            print(f"Ошибка при обработке {filename}: {e}")
+    try:
+        with Image.open(input_path) as img:
+            img = img.convert("RGBA")
+            img = img.resize(target_size, Image.Resampling.LANCZOS)
+            img.save(output_path, "PNG", optimize=True)
 
-print("\nВсе изображения успешно обработаны и сжаты!")
+        print(f"Готово: {filename} -> {counter}.png")
+        counter += 1
+
+    except Exception as e:
+        print(f"Ошибка при обработке {filename}: {e}")
+
+print("Обработка завершена")

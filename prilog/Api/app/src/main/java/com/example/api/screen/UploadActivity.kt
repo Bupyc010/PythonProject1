@@ -1,120 +1,108 @@
 package com.example.api.screen
 
+import android.content.Context
 import android.net.Uri
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
-import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.api.databinding.ActivityUploadBinding
 import com.example.api.repository.PhotoRepository
 import kotlinx.coroutines.launch
-import okhttp3.MediaType.Companion.toMediaTypeOrNull
 import okhttp3.MultipartBody
 import okhttp3.RequestBody.Companion.asRequestBody
+import okhttp3.MediaType.Companion.toMediaTypeOrNull
 import java.io.File
 import java.io.FileOutputStream
+import java.io.InputStream
 
 class UploadActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityUploadBinding
     private val repo = PhotoRepository()
-    private lateinit var adapter: PhotoAdapter
 
     private var selectedImageUri: Uri? = null
 
-    private val pickImageLauncher =
-        registerForActivityResult(ActivityResultContracts.GetContent()) { uri: Uri? ->
-            if (uri != null) {
-                selectedImageUri = uri
-                Toast.makeText(this, "Фото выбрано", Toast.LENGTH_SHORT).show()
-            } else {
-                Toast.makeText(this, "Фото не выбрано", Toast.LENGTH_SHORT).show()
-            }
+    private val pickImageLauncher = registerForActivityResult(
+        ActivityResultContracts.GetContent()
+    ) { uri: Uri? ->
+        if (uri != null) {
+            selectedImageUri = uri
+            binding.imagePreview.setImageURI(uri)
+            Toast.makeText(this, "Фото выбрано", Toast.LENGTH_SHORT).show()
+        } else {
+            Toast.makeText(this, "Фото не выбрано", Toast.LENGTH_SHORT).show()
         }
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityUploadBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        adapter = PhotoAdapter(mutableListOf())
-        binding.recyclerView.layoutManager = LinearLayoutManager(this)
-        binding.recyclerView.adapter = adapter
-
-        loadPhotos()
-
-        binding.btnPick.setOnClickListener {
+        binding.btnSelectImage.setOnClickListener {
             pickImageLauncher.launch("image/*")
         }
 
         binding.btnUpload.setOnClickListener {
+            val uri = selectedImageUri
+            if (uri == null) {
+                Toast.makeText(this, "Сначала выберите фото", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
+
+            val file = uriToFile(uri)
+            if (file == null) {
+                Toast.makeText(this, "Не удалось подготовить файл", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
+
+            val sharedPref = getSharedPreferences("auth_prefs", Context.MODE_PRIVATE)
+            val token = sharedPref.getString("jwt_token", null)
+
+            if (token.isNullOrEmpty()) {
+                Toast.makeText(this, "Токен не найден", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
+
+            val requestFile = file.asRequestBody("image/*".toMediaTypeOrNull())
+            val part = MultipartBody.Part.createFormData("file", file.name, requestFile)
+
             lifecycleScope.launch {
                 try {
-                    val uri = selectedImageUri
-                    if (uri == null) {
-                        Toast.makeText(this@UploadActivity, "Сначала выберите фото", Toast.LENGTH_SHORT).show()
-                        return@launch
-                    }
-
-                    val prefs = getSharedPreferences("auth_prefs", MODE_PRIVATE)
-                    val savedToken = prefs.getString("jwt_token", null)
-
-                    if (savedToken.isNullOrEmpty()) {
-                        Toast.makeText(this@UploadActivity, "Токен не найден. Войдите заново", Toast.LENGTH_SHORT).show()
-                        return@launch
-                    }
-
-                    val file = uriToFile(uri)
-                    val requestFile = file.asRequestBody("image/jpeg".toMediaTypeOrNull())
-                    val part = MultipartBody.Part.createFormData("file", file.name, requestFile)
-
-                    val token = "Bearer $savedToken"
-                    val response = repo.upload(part, token)
+                    val response = repo.uploadPhoto(part, "Bearer $token")
 
                     if (response.isSuccessful) {
-                        Toast.makeText(this@UploadActivity, "Фото загружено", Toast.LENGTH_SHORT).show()
-                        loadPhotos()
+                        val photoResponse = response.body()
+                        val code = photoResponse?.photo_code ?: "Код не получен"
+                        binding.tvResult.text = "Код: $code"
+                        Toast.makeText(this@UploadActivity, "Успех! Код: $code", Toast.LENGTH_SHORT).show()
                     } else {
-                        Toast.makeText(this@UploadActivity, "Ошибка: ${response.code()}", Toast.LENGTH_SHORT).show()
+                        binding.tvResult.text = "Ошибка сервера: ${response.code()}"
                     }
                 } catch (e: Exception) {
-                    Toast.makeText(this@UploadActivity, "Сбой: ${e.message}", Toast.LENGTH_SHORT).show()
+                    binding.tvResult.text = "Ошибка сети: ${e.message}"
+                    e.printStackTrace()
                 }
             }
         }
     }
 
-    private fun loadPhotos() {
-        lifecycleScope.launch {
-            try {
-                val response = repo.getPhotos()
-                if (response.isSuccessful) {
-                    val list = response.body() ?: emptyList()
-                    adapter.updateData(list)
-                } else {
-                    Toast.makeText(this@UploadActivity, "Ошибка загрузки списка", Toast.LENGTH_SHORT).show()
+    private fun uriToFile(uri: Uri): File? {
+        return try {
+            val inputStream: InputStream? = contentResolver.openInputStream(uri)
+            val file = File(cacheDir, "upload_image.jpg")
+            val outputStream = FileOutputStream(file)
+
+            inputStream?.use { input ->
+                outputStream.use { output ->
+                    input.copyTo(output)
                 }
-            } catch (e: Exception) {
-                Toast.makeText(this@UploadActivity, "Ошибка сети: ${e.message}", Toast.LENGTH_SHORT).show()
             }
+            file
+        } catch (e: Exception) {
+            null
         }
-    }
-
-    private fun uriToFile(uri: Uri): File {
-        val inputStream = contentResolver.openInputStream(uri)
-            ?: throw IllegalArgumentException("Не удалось открыть изображение")
-
-        val file = File(cacheDir, "upload_${System.currentTimeMillis()}.jpg")
-        val outputStream = FileOutputStream(file)
-
-        inputStream.use { input ->
-            outputStream.use { output ->
-                input.copyTo(output)
-            }
-        }
-
-        return file
     }
 }
